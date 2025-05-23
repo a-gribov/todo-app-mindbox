@@ -3,7 +3,6 @@ import { defineConfig } from 'vitest/config'
 
 export default defineConfig({
   plugins: [react()],
-  base: '/todo-app-mindbox/',
   server: {
     port: 3000,
   },
